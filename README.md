@@ -8,6 +8,8 @@ Each team has a folder with their team's name. Please submit your files in your 
 **Files to include:**
 
 - All code
+- A detailed README.md file explaining how to run your code and recreate your output
+  - The more detailed the better
 - Final presentation file
 - Transcript of your Slack channel's communication
 
