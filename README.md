@@ -1,5 +1,5 @@
 # Update: 
-- Final submission deadline: Wednesday, April 10th at 5 PM IST
+Final submission deadline: Wednesday, **April 10th at 5 PM IST**
 
 **Presentation Schedule**
 
