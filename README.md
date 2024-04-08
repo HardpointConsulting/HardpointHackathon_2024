@@ -6,9 +6,9 @@ Final submission deadline: Wednesday, **April 10th at 5 PM IST**
 
 | Team | 11th    |     | Team | 12th    |
 |------|---------|-----|------|---------|
-| 1    | 5:00 am |     | 6    | 5:00 am |
-| 2    | 5:30 am |     | 7    | 5:30 am |
-| 3    | 6:00 am |     | 8    | 6:00 am |
+| 8    | 5:00 am |     | 7    | 5:00 am |
+| 2    | 5:30 am |     | 6    | 5:30 am |
+| 3    | 6:00 am |     | 1    | 6:00 am |
 | 4    | 6:30 am |     | 9    | 6:30 am |
 | 5    | 7:00 am |     | 10   | 7:00 am |
 
