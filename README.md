@@ -1,3 +1,12 @@
+# Update # 2:
+It has been brought to my attention that using OpenAI and Claude models may be a barrier due to costs. To relieve this burdon on all teams, I have created API keys that all teams can use for their development. 
+
+The keys will be sent to each team on Slack. 
+
+
+**Note:** These keys will be deleted after the competition.
+
+
 # Update: 
 Final submission deadline: Wednesday, **April 10th at 5 PM IST**
 
