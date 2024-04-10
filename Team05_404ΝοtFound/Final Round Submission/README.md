@@ -24,5 +24,20 @@ This Python script analyzes product reviews from an Amazon product page, perform
    nltk.download('stopwords')
    nltk.download('punkt')
    nltk.download('wordnet')
+3. Set up OpenAI API key
+
+## Usage
+1. Run the script amazon_product_review_analysis.py.
+2. Navigate to http://127.0.0.1:5000/ in your web browser.
+3. Enter the URL of the Amazon product page to analyze.
+4. The script will process the URL, perform sentiment analysis, identify common problems, and generate potential solutions.
+5. Results will be displayed on the web page along with visualization plots
+
+## Authors
+- Amal Gopi
+- Harankumar M.S
+- Deepak Nair
+- Elvin Jimmy
+- Jeeva C.S
    
 
