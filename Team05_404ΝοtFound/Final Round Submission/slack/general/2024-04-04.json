@@ -1,0 +1,92 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U06SRSUET61",
+        "text": "<@U06SRSUET61> has joined the channel",
+        "type": "message",
+        "ts": "1712249761.341669"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U06SN5Y0LES",
+        "text": "<@U06SN5Y0LES> has joined the channel",
+        "type": "message",
+        "ts": "1712249764.212459"
+    },
+    {
+        "user": "U06SLHNEDM1",
+        "type": "message",
+        "ts": "1712250001.612299",
+        "client_msg_id": "f90947ac-8a6e-498b-b9b9-d63165d0b3b9",
+        "text": "hi",
+        "team": "T06SLM5J5FC",
+        "user_team": "T06SLM5J5FC",
+        "source_team": "T06SLM5J5FC",
+        "user_profile": {
+            "avatar_hash": "gc2ad7231f85",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/c2ad7231f85ef3f635b0b9c191eed533.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0016-72.png",
+            "first_name": "amalgopi63",
+            "real_name": "amalgopi63",
+            "display_name": "",
+            "team": "T06SLM5J5FC",
+            "name": "amalgopi63",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "a8bcU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hi"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U06SN5Y0LES",
+        "type": "message",
+        "ts": "1712250043.249699",
+        "client_msg_id": "9cb569ea-9052-454e-b449-ab735f6fbf03",
+        "text": "eda kutta",
+        "team": "T06SLM5J5FC",
+        "user_team": "T06SLM5J5FC",
+        "source_team": "T06SLM5J5FC",
+        "user_profile": {
+            "avatar_hash": "gbc8f35ec702",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/bc8f35ec702d1e5e6207b9c9e146d9bc.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0009-72.png",
+            "first_name": "elvin",
+            "real_name": "elvin",
+            "display_name": "elvin",
+            "team": "T06SLM5J5FC",
+            "name": "elvinpanakkal",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KBuGa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "eda kutta"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
