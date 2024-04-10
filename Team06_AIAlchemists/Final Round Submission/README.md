@@ -30,7 +30,7 @@ import SwotAnalysis from './SwotAnalysis';
 function App() {
   return (
     <div className="App">
-      <h2 className="product-name">Product Name</h2>
+      <h2 className="product-name">ElevateBiz</h2>
       <SwotAnalysis />
       <footer className="footer">
         by AI Alchemists
