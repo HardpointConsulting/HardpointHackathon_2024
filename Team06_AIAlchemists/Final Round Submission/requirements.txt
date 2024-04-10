@@ -1,0 +1,6 @@
+transformers
+selenium
+webdriver-manager
+beautifulsoup4
+pandas
+torch

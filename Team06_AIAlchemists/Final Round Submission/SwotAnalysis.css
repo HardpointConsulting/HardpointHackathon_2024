@@ -1,0 +1,132 @@
+body {
+    background: linear-gradient(135deg, #e2efff 0%, #ffddf0 100%);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .product-name {
+    font-size: 32px; /* Relatively big font size */
+    font-weight: bold; /* Bold font weight */
+    text-align: left; /* Align text to the left */
+    margin: 20px 0 -60px 0; /* Add some space above and below the heading */
+    padding-left: 50px; /* Align with the content, assuming the same padding as the container */
+  }
+  
+  .App {
+    min-height: 100vh;
+    position: relative; /* Needed for absolute positioning of the footer */
+    padding-bottom: 60px; /* Space for the footer */
+    box-sizing: border-box; /* Include padding in the height calculation */
+  }
+  
+  .app-container {
+    min-height: 100vh; /* Ensure the container fills the viewport height */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: space-between; 
+  }
+  
+  .swot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 50px;
+  }
+  
+  .swot-boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: calc(100% - 100px);
+    margin: auto;
+  }
+  
+  .box {
+    padding: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    color: #2D2D2D; /* Dark text color for readability */
+    font-size: 1.2em;
+    flex-direction: column; /* Ensure items are stacked vertically */
+    align-items: center; /* Center align items horizontally */
+    text-align: center;
+  }
+  
+  .box h3 {
+    margin-top: 0; /* Decrease the top space of the headings */
+    margin-bottom: 10px; /* Adjust space between the heading and the textarea */
+    color: #2D2D2D; /* Dark text color for readability */
+    font-size: 1.4em; /* Adjust if you want to change the size of the heading */
+  }
+  
+  .box textarea {
+    width: 100%; /* Make the textarea take up the full width of the box */
+    height: 150px; /* Increase the height of the textarea */
+    margin-top: 0; /* Decrease the top space above the textarea if needed */
+    background: #FFFFFF; /* Solid white background for the textarea */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Adjust border as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners for the textarea */
+    padding: 15px; /* Increase padding for larger text area */
+    color: #2D2D2D; /* Dark text color for readability */
+    font-size: 1em; /* Maintain font size */
+    resize: vertical; /* Allow only vertical resizing */
+  }
+  
+  .box textarea {
+    /* Apply the same styles to both general inference and box textareas */
+    background: rgba(255, 255, 255, 0.25);
+    border: none;
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    padding: 20px;
+    color: #2D2D2D;
+    font-size: 1em;
+  }
+  
+  .general-inference {
+    width: calc(100% - 100px);
+    margin: 20px 50px;
+  }
+  
+  .general-inference textarea {
+    width: 100%; /* Maintain full width within its container */
+    height: 200px; /* Revert to original height */
+    background: rgba(255, 255, 255, 0.25); /* Keep the updated background style */
+    border: none;
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    padding: 20px; /* Maintain the padding */
+    color: #2D2D2D; /* Keep the text color */
+    font-size: 1em; /* Maintain the font size */
+    resize: none; /* Prevent resizing */
+  }
+  
+  .footer {
+    width: 100%;
+    background-color: #f0f0f0;
+    color: #2D2D2D;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1em;
+    font-weight: bold;
+    border-top: 1px solid #e6e6e6;
+    position: fixed; /* Fixed to the bottom of the viewport */
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  body {
+    margin-bottom: 60px; /* Adjust this value based on the footer's height */
+  }
