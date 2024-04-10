@@ -40,11 +40,11 @@ The landing page of the website is given below. Give the user an area to give th
 
 <img src="images/firstpage.jpg" alt="Home Page" width="500" height="250">
 
-the output page contains two charts showing review count and also trend analysis
+The output page contains two charts showing review count and also trend analysis
 
 <img src="images/outputchart.jpg" alt="Home Page" width="500" height="250">
 
-output also contains an report that shows the solution for problems idnetified in reviews
+Output also contains an report that shows the solution for problems idnetified in reviews
 
 <img src="images/outputreport.jpg" alt="Home Page" width="500" height="250">
 
