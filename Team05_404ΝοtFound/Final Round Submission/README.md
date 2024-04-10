@@ -44,7 +44,7 @@ The output page contains two charts showing review count and also trend analysis
 
 <img src="images/outputchart.jpg" alt="Home Page" width="500" height="250">
 
-Output also contains an report that shows the solution for problems idnetified in reviews
+Output also contains an report that shows the solution for problems identified in reviews
 
 <img src="images/outputreport.jpg" alt="Home Page" width="500" height="250">
 
