@@ -19,4 +19,4 @@ Comment Replier Bot
 run the code: python commentbot.py (After that enter your username, password and link of the post)
 
 Direct Messager Bot
-run the cdoe: python dmbot.py (After that enter your username, password)
+run the code: python dmbot.py (After that enter your username, password)
