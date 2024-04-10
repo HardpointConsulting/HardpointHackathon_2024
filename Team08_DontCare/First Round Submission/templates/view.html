@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 10</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        
+        header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background: black;
+            color: white;
+        }
+        
+        header h1{
+            font-size: 80px;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .head1{
+            border-right: 1px solid white;
+            border-collapse: collapse;
+            font-size: 20px;
+            background: #323232;
+            color: white;
+            width: 10%;
+        }
+
+        .head2,.head3,.head4{
+            border-right: 1px solid white;
+            border-collapse: collapse;
+            font-size: 20px;
+            background: #323232;
+            color: white;
+            width: 30%;
+        }
+
+        .head4{
+            border: 0;
+        }
+
+        .col1,.col2,.col3,.col4{
+            border: 1px solid black;
+            border-collapse: collapse;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+            text-align: center;
+        }
+
+        .space{
+            width: 100%;
+        }
+
+        .xls{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .excel{
+            width: 10%;
+            border: 0;
+            border-radius: 5px;
+            background: black;
+            color: white;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        }
+
+        .excel:hover{
+            cursor: pointer;
+            background: #323232;
+        }
+
+        footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 10%;
+            background: #323232;
+            color: white;
+            font-size: small;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Titlr.</h1>
+    </header>
+    <table>
+        <thead>
+          <tr>
+            <th class="head1">S No.</th>
+            <th class="head2">Title</th>
+            <th class="head3">Authors</th>
+            <th class="head4">Alternate Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for entry in response %}
+            <tr>
+              <td class="col1">{{ entry.id }}</td>
+              <td class="col2">{{ entry.title }}</td>
+              <td class="col3">{{ entry.authors }}</td>
+              <td class="col4">{{ entry.alt }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+    </table>
+    <div class="space">
+        <h1></h1>
+    </div>
+    <form action="create" class="xls">
+        {% csrf_token %}
+        <button class="excel">Create Excel</button>
+    </form>
+    <footer>
+        <p>Designed and Developed by Team Don&apos;t Care</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 10</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+        body{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100vh;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 20%;
+            background: black;
+            color: white;
+        }
+
+        header h1{
+            font-size: 80px;
+        }
+
+        .description{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 30%;
+        }
+
+        .description p{
+            width: 90%;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .dataset{
+            width: 100%;
+            height: 40%;
+        }
+
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            width: 100%;
+            height: 100%;
+        }
+
+        .box{
+            width: 50%;
+            height: 80%;
+            border: 1px solid black;
+            border-radius: 15px;
+        }
+
+        .up{
+            width: 100%;
+            height: 50%;
+            border-top-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+
+        .left{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            height: 100%;
+            float: left;
+            border-top-left-radius: 15px;
+            font-size: x-large;
+        }
+
+        .right{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 50%;
+            height: 100%;
+            float: left;
+            border-top-right-radius: 15px;
+        }
+
+        .right input{
+            width: 80%;
+            height: 50%;
+        }
+
+        .right input::file-selector-button{
+            width: 50%;
+            height: 100%;
+            border-radius: 5px;
+            background: black;
+            color: white;
+            font-size: large;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+            border: 0;
+        }
+
+        .right input::file-selector-button:hover{
+            cursor: pointer;
+            background: #323232;
+        }
+
+        .down{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 50%;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+
+        .down input{
+            width: 25%;
+            height: 50%;
+            border-radius: 5px;
+            border: 0;
+            background: #323232;
+            color: white;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        }
+
+        .down input:hover{
+            cursor: pointer;
+            background: black;
+        }
+
+        footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 10%;
+            background: #323232;
+            color: white;
+            font-size: small;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Titlr.</h1>
+    </header>
+    <div class="description">
+        <p>Titlr is a state-of-the-art application engineered to automate the extraction of vital information from scientific documents and generate alternative titles based on their content. Ideal for researchers, academics, and students alike, Titlr empowers users to swiftly analyze documents, pinpoint essential details such as titles and author names, and propose alternative titles that encapsulate the document's core concepts.</p>
+    </div>
+    <div class="dataset">
+        <form method="post" action="upload" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="box">
+                <div class="up">
+                    <div class="left">
+                        <label>Upload dataset folder:</label>
+                    </div>
+                    <div class="right">
+                        <input type="file" class="file" name="file" webkitdirectory mozdirectory required>
+                    </div>
+                </div>
+                <div class="down">
+                    <input type="submit" class="upload" value="Upload">
+                </div>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <p>Designed and Developed by Team Don&apos;t Care</p>
+    </footer>
+</body>
+</html>
