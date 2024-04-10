@@ -1,0 +1,91 @@
+/* chatbotlog.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* white background */
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    width: 300px;
+    text-align: center;
+    border: 2px solid #f5deb3; /* cream border */
+    border-radius: 10px; /* border radius */
+    padding: 20px; /* spacing inside the box */
+    background-color: #d2b48c; /* brown background */
+}
+
+h1 {
+    color: #f5deb3; /* cream text */
+}
+
+.login-options {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #f5deb3; /* cream hover color */
+    color: #8b4513; /* brown text on hover */
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #f5deb3; /* cream border */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #f5deb3; /* cream border color on focus */
+}
+
+button[type="submit"] {
+    background-color: #f5deb3; /* cream button color */
+    color: #8b4513; /* brown text color */
+}
+
+button[type="submit"]:hover {
+    background-color: #d2b48c; /* darker brown hover color */
+}
+
+.chatbot-icon {
+    text-align: center; /* Center the icon and text */
+    margin-bottom: 20px; /* Add some space below the icon and name */
+}
+
+.chatbot-icon img {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    width: 100px; /* Set the width as per your requirement */
+    height: 100px; /* Set the height as per your requirement */
+}
+
+h2 {
+    margin-top: 1px; /* Add some space above the name */
+    color: #512a0e;
+}

@@ -1,0 +1,127 @@
+/* Chatbot container */
+.chatbot-container {
+    width: 80%; /* Increased width */
+    margin: 20px auto;
+    background-color: #f0f0f0; /* Light grey background */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Chat window */
+.chat-window {
+    position: relative; /* Set position to relative */
+    padding: 20px;
+    height: 500px; /* Increased height */
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+/* Messages within the chat */
+.messages {
+    padding: 10px;
+}
+
+/* User message */
+.user-message {
+    background-color: #ad6b51; /* Brown background for user messages */
+    color: #fff;
+    padding: 10px 15px; /* Increased padding */
+    margin-bottom: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    clear: both; /* Clear floating elements */
+    float: left; /* Align user messages to the left */
+}
+
+/* Chatbot response */
+.chatbot-response {
+    background-color: #f5deb3; /* Cream background for chatbot responses */
+    color: #000;
+    padding: 10px 15px; /* Increased padding */
+    margin-bottom: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    clear: both; /* Clear floating elements */
+    float: right; /* Align chatbot responses to the right */
+}
+
+/* Input field */
+.chat-input {
+    width: calc(100% - 120px); /* Adjusted width */
+    padding: 12px; /* Increased padding */
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 16px; /* Increased font size */
+    position: absolute; /* Set position to absolute */
+    bottom: 20px; /* Distance from bottom */
+    left: 20px; /* Distance from left */
+    background-color: #f9f9f9;
+}
+
+/* Send button */
+.send-btn {
+    background-color: #ad6b51; /* Blue background for send button */
+    color: #fff;
+    padding: 12px 24px; /* Increased padding */
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px; /* Increased font size */
+    position: absolute; /* Set position to absolute */
+    bottom: 20px; /* Distance from bottom */
+    right: 20px; /* Distance from right */
+}
+
+/* Hover effect for send button */
+.send-btn:hover {
+    background-color: #8b4513; /* Darker blue on hover */
+}
+/* User message */
+.user-message {
+    background-color: #ad6b51; /* Blue background for user messages */
+    color: #fff;
+    padding: 10px 15px; /* Increased padding */
+    margin-bottom: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    clear: both; /* Clear floating elements */
+    float: left; /* Align user messages to the left */
+}
+
+/* Input field */
+.chat-input {
+    width: calc(100% - 160px); /* Adjusted width to accommodate the send button */
+    padding: 12px; /* Increased padding */
+    border: 2px solid #8b4513; /* Border color */
+    border-radius: 30px; /* Rounded corners */
+    outline: none;
+    font-size: 16px; /* Increased font size */
+    background-color: #f9f9f9; /* Background color */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+/* Input field focus state */
+.chat-input:focus {
+    border-color: #8b4513; /* Border color on focus */
+}
+
+.chatbot-icon {
+    text-align: center; /* Center the icon and text */
+    margin-bottom: 20px; /* Add some space below the icon and name */
+}
+
+.chatbot-icon img {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    width: 100px; /* Set the width as per your requirement */
+    height: 100px; /* Set the height as per your requirement */
+}
+
+h2 {
+    margin-top: 1px; /* Add some space above the name */
+    color: #5f3111;
+}

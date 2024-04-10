@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/chatbotlog.css"> 
+</head>
+<body>
+    <div class="wrapper">
+        <div class="login-container">
+            <div class="chatbot-icon">
+                <img src="images/boticon.png" alt="Chatbot Icon">
+                <h2>BOUTIHUB AI</h2>
+            </div>
+            <h1>Login</h1>
+            <div class="login-options">
+                <button id="customer-login">Login for Customers</button>
+                <button id="employer-login">Login for Employers</button>
+            </div>
+            <!-- Customer Login Form -->
+            <div id="customer-form" class="login-form" style="display:none;">
+                <input type="text" id="customer-username" placeholder="Customer Username" required>
+                <input type="password" id="customer-password" placeholder="Customer Password" required>
+                <button onclick="submitLogin('customer')">Login as Customer</button>
+            </div>
+            <!-- Employer Login Form -->
+            <div id="employer-form" class="login-form" style="display:none;">
+                <input type="text" id="employer-username" placeholder="Employer Username" required>
+                <input type="password" id="employer-password" placeholder="Employer Password" required>
+                <button onclick="submitLogin('employer')">Login as Employer</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/chatbotlog.js"></script>
+</body>
+</html>
