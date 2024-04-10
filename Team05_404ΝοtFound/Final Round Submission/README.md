@@ -51,6 +51,10 @@ Output also contains an report that shows the solution for problems idnetified i
 
 ## Dataset
 
+- 'amazon_review' file contains the extracted data form website.
+- 'clean_text' file contains the data after preprocessing.
+- 'sentiment_analysis_result' file contains the data after sentiment score is given
+
 ## Additional Information
 1. The script utilizes the Flask framework to create a simple web interface for interacting with the analysis functionality.
 2. Preprocessing steps include text cleaning, tokenization, stop word removal, and lemmatization.
