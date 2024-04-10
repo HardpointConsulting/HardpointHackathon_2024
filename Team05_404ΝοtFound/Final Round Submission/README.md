@@ -17,4 +17,12 @@ This Python script analyzes product reviews from an Amazon product page, perform
 1. Install the required dependencies using pip:
    ```bash
    pip install Flask requests beautifulsoup4 pandas nltk matplotlib langchain
+2. Ensure NLTK data is downloaded
+   ```bash
+   import nltk
+   nltk.download('vader_lexicon')
+   nltk.download('stopwords')
+   nltk.download('punkt')
+   nltk.download('wordnet')
+   
 
