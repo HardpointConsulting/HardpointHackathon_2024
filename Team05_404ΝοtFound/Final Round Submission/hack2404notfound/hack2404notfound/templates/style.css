@@ -1,0 +1,12 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+pre{
+    font-size: 17px;
+}
+.top img{
+    width: 50%;
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Buddy</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            width: 100%;
+            position: fixed;
+            background-color: transparent;
+            color: white;
+            padding: 30px;
+            font-size: 34px;
+            font-weight: bolder;
+        }
+        nav span{
+            font-size: 35px;
+            color: #c526d0;
+        }
+        section{
+            display: flex;
+            background-color: #000;
+            width: 100%;
+            height: 100vh;
+        }
+        section .left{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            width: 50%;
+            height: 100%;
+            background: rgb(89,6,118);
+            background: radial-gradient(circle, rgba(89,6,118,1) 0%, rgba(0,0,0,1) 51%);
+            /* background-color: #28a745; */
+        }
+        section .left h2{
+            font-weight: 400;
+            font-size: 50px;
+            color: white;
+            margin-bottom: 40px;
+            animation: lights 5s 750ms linear infinite;
+        }
+        @keyframes lights {
+  0% {
+    color: hsl(230, 40%, 80%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.2),
+      0 0 0.125em hsla(320, 100%, 60%, 0.3),
+      -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+      1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+  }
+  
+  30% { 
+    color: hsl(230, 80%, 90%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 100%, 60%, 0.5),
+      -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+      0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+  }
+  
+  40% { 
+    color: hsl(230, 100%, 95%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 100%, 90%, 0.5),
+      -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+      0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+  }
+  
+  70% {
+    color: hsl(230, 80%, 90%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 100%, 60%, 0.5),
+      0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+      -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+  }
+  
+  100% {
+    color: hsl(230, 40%, 80%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.2),
+      0 0 0.125em hsla(320, 100%, 60%, 0.3),
+      1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+      -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+  }
+  
+}
+
+
+        section .left p{
+            font-size: 17px;
+            font-weight: 200;
+            margin-bottom: 20px;
+            color: rgb(191, 191, 191);
+        }
+        section .left input{
+            width: 100%;
+            height: 40px;
+            font-size: 14px;
+            font-weight: bolder;
+            border: none;
+            border-radius: 15px;
+            padding: 0 10px;
+            color: white;
+            background-color: transparent;
+        }
+        section .left button{
+            width: 150px;
+            height: 40px;
+            font-size: 14px;
+            font-weight: bolder;
+            background-color: white;
+            color: #c526d0;
+            border: none;
+            border-radius: 50px;
+        }
+        section .left form{
+            border-radius: 30px;
+            height: 150px;
+            width: 100%;
+            padding: 20px;
+            background-color: #94949466;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+       section .left input::selection{
+            background-color: transparent;
+            border: none;
+        }
+        section .right{
+            width: 50%;
+            height: 100%;
+            padding: 30px;
+        }
+        section .right img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 30px;
+        }
+    </style>
+
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #007bff;">
+
+    <!-- Navbar -->
+    <nav>
+        Review<span>Sense</span>
+    </nav>
+
+    <section>
+        <div class="left">
+            <h2>Unlock the Power of User Feedback</h2>
+            <!-- <h2>UNLOCK THE POWER OF USER FEEDBACK</h2> -->
+            <!-- <p>Know About Your Product</p> -->
+            <form action="/process" method="post">
+                <input type="text" name="url" placeholder="Enter URL">
+                <button type="submit" value="Submit" >Submit</button>
+            </form>
+        </div>
+        <div class="right">
+            <img src="https://images.pexels.com/photos/8728382/pexels-photo-8728382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+
+        </div>
+    </section>
+
+
+
+    <!-- URL Input Field and Submit Button -->
+    <!-- <div style="text-align: center; margin-top: 20px;">
+        <form action="/process" method="post">
+        <input type="text" name="url" placeholder="Enter URL" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+        <input type="submit" value="Submit" style="background-color: #28a745; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;" >
+        </form>
+    </div> -->
+
+
+   
+  
+</body>
+</html>
