@@ -36,10 +36,13 @@ This Python script analyzes product reviews from an Amazon product page, perform
 
 ## Work Flow
 
-The landing page of the website is given below..
+The landing page of the website is given below. Give the user an area to give the url of the product
 
 <img src="images/firstpage.jpg" alt="Home Page" width="500" height="250">
 
+the output page contains two charts showing review count and also trend analysis
+
+<img src="images/outputchart.jpg" alt="Home Page" width="500" height="250">
 ## Additional Information
 1. The script utilizes the Flask framework to create a simple web interface for interacting with the analysis functionality.
 2. Preprocessing steps include text cleaning, tokenization, stop word removal, and lemmatization.
