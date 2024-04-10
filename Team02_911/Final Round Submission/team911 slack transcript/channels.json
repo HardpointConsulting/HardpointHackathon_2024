@@ -1,0 +1,44 @@
+[
+{
+    "id": "C06SLQ2B5D0",
+    "name": "random",
+    "created": 1712152839,
+    "creator": "U06SP85VDNG",
+    "is_archived": false,
+    "is_general": false,
+    "members": [
+        "U06SP85VDNG"
+    ],
+    "topic": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    },
+    "purpose": {
+        "value": "This channel is for... well, everything else. It’s a place for team jokes, spur-of-the-moment ideas and funny GIFs. Go wild!",
+        "creator": "U06SP85VDNG",
+        "last_set": 1712152839
+    }
+},
+{
+    "id": "C06SZE0K7QR",
+    "name": "general",
+    "created": 1712152838,
+    "creator": "U06SP85VDNG",
+    "is_archived": false,
+    "is_general": true,
+    "members": [
+        "U06SP85VDNG"
+    ],
+    "topic": {
+        "value": "",
+        "creator": "",
+        "last_set": 0
+    },
+    "purpose": {
+        "value": "This is the one channel that will always include everyone. It’s a great spot for announcements and team-wide conversations.",
+        "creator": "U06SP85VDNG",
+        "last_set": 1712152838
+    }
+}
+]
