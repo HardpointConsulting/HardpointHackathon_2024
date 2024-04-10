@@ -44,7 +44,7 @@ This Python script analyzes product reviews from an Amazon product page, perform
 ## Authors
 - Amal Gopi
 - Harankumar M.S
-- Deepak Nair
+- Deepak Nair V.P
 - Elvin Jimmy
 - Jeeva C.S
    
