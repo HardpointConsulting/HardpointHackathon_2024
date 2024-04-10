@@ -25,7 +25,7 @@ This Python script analyzes product reviews from an Amazon product page, perform
    nltk.download('punkt')
    nltk.download('wordnet')
 3. Set up OpenAI API key
-   Replace 'Open api key' with your OpenAI API key in the code
+  - Replace 'Open api key' with your OpenAI API key in the code
 
 ## Usage
 1. Run the script amazon_product_review_analysis.py.
