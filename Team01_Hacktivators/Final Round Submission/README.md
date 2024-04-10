@@ -12,7 +12,7 @@ The bot's adaptability allows for customization based on the individual brand's 
 
 
 USAGE:
-install necessory packages- 
+install necessary packages- 
 pip install transformers instagrapi
 
 Comment Replier Bot
