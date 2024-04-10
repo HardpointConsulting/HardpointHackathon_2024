@@ -34,6 +34,12 @@ This Python script analyzes product reviews from an Amazon product page, perform
 4. The script will process the URL, perform sentiment analysis, identify common problems, and generate potential solutions.
 5. Results will be displayed on the web page along with visualization plots
 
+## Work Flow
+
+The landing page of the website is given below..
+
+<img src="images/firstpage.jpg" alt="Home Page" width="500" height="250">
+
 ## Additional Information
 1. The script utilizes the Flask framework to create a simple web interface for interacting with the analysis functionality.
 2. Preprocessing steps include text cleaning, tokenization, stop word removal, and lemmatization.
