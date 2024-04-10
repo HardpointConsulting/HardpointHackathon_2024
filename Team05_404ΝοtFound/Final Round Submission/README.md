@@ -1,4 +1,4 @@
-# Amazon Product Review Analysis
+# ReviewSense
 
 ## Description
 This Python script analyzes product reviews from an Amazon product page, performs sentiment analysis, identifies common problems mentioned in negative reviews, and generates potential solutions using a language model. It also visualizes the distribution of sentiments and trends in review scores over time.
