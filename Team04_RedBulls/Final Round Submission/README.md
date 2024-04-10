@@ -2,7 +2,7 @@
 Lack of appointing hr staffs in medium sized enterprises always raises the question of authenticity,as there exists no communication channels for the company staffs to enquire about their queries or others to know about the details on new recruitments.
 To get rid of this prevailing challenge,we have developed a smart HR-gpt that can automate the tasks done by an HR personnel such as responding to employee queries on leave requests,salary,incentives and other allowances. It also does the work of verifying CVs, shortlisting candidates and scheduling their interviews.
 
-# HR Bot
+# What is HR Bot
 The HR bot streamlines employee inquiries and automates routine HR tasks, enhancing efficiency and responsiveness within the workplace. Through natural language processing and machine learning algorithms, it provides personalized assistance and fosters a smoother employee experience.
 
 # Tools Used
