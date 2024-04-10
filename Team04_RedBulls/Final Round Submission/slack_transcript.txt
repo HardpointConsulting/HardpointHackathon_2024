@@ -1,0 +1,407 @@
+team04_redbulls
+@Raymond Kusch
+ created this channel on April 3rd. It’s private, and can only be joined by invitation.
+A Smart HR for medium sized enterprise that handles tasks such as responding to employee queries, emails, granting leaves, onboarding and departure of employees, scheduling interviews for candidates. Edit description
+PRO
+As part of your free trial, you can now access all of your message and file history. Learn more
+
+
+HC
+Raymond Kusch
+  6:58 AM
+joined team04_redbulls.
+
+
+Slackbot
+  5:57 PM
+harithatony17@gmail.com’s workspace has joined this channel by invitation from Hardpoint Consulting.
+
+
+HW
+Haritha Tony
+  5:57 PM
+was added to team04_redbulls by Raymond Kusch
+.
+
+
+Slackbot
+  11:54 PM
+ramani.research@gmail.com’s workspace has joined this channel by invitation from Hardpoint Consulting.
+
+
+RW
+Ramani Bai V
+  11:54 PM
+was added to team04_redbulls by Raymond Kusch
+.
+
+
+Slackbot
+  10:46 PM
+csnobel2001@gmail.com’s Workspace has joined this channel by invitation from Hardpoint Consulting.
+
+
+csnobel2001
+  10:46 PM
+was added to team04_redbulls by Raymond Kusch
+.
+
+
+Slackbot
+  5:50 AM
+Vidya Academy Of Science & Technology has joined this channel by invitation from Hardpoint Consulting.
+
+
+VA
+REMYA K R
+  5:50 AM
+was added to team04_redbulls by Raymond Kusch
+.
+
+
+Slackbot
+  4:27 PM
+aaryavs2003@gmail.com’s Workspace has joined this channel by invitation from Hardpoint Consulting.
+
+
+AW
+aaryavs2003
+  4:27 PM
+was added to team04_redbulls by Raymond Kusch
+.
+
+
+Slackbot
+  5:56 PM
+hannajose2501@gmail.com’s Workspace has joined this channel by invitation from Hardpoint Consulting.
+
+
+HW
+hannajose2501
+  5:56 PM
+was added to team04_redbulls by Raymond Kusch
+.
+
+
+Slackbot
+  9:17 PM
+athulakhil28@gmail.com’s Workspace has joined this channel by invitation from Hardpoint Consulting.
+
+
+AW
+ATHULKRISHNAN H
+  9:17 PM
+was added to team04_redbulls by Raymond Kusch
+.
+
+
+csnobel2001
+  4:43 PM
+set the channel description: A Smart HR for medium sized enterprise that handles tasks such as responding to employee queries, emails, granting leaves, onboarding and departure of employees, scheduling interviews for candidates.
+
+
+csnobel2001
+  4:43 PM
+set the channel topic: Smart HR
+
+
+VA
+REMYA K R
+  4:54 PM
+Please share your problem statement here.
+
+
+csnobel2001
+  1:19 PM
+----Problem Statement ----
+Lack of appointing HR staffs in medium sized enterprises always raises the question of authenticity,as there exists no communication channels for the company staffs to enquire about their queries or others to know about the details on new recruitments.
+To get rid of this prevailing challenge,we have developed a smart HR-gpt that can automate the tasks done by an HR personnel such as responding to employee queries on leave requests,salary,incentives and other allowances. It also does the work of verifying CVs, shortlisting candidates and scheduling their interviews.
+1:19
+I want all teammates to find a name for our bot
+
+
+HW
+Haritha Tony
+  1:59 PM
+What about "HR bot"?
+
+
+csnobel2001
+  3:00 PM
+Thats a good name 
+@Haritha Tony
+3:00
+@hannajose2501
+ update me the ppt status
+3:01
+@Haritha Tony
+ update me with the certification data extractions
+
+
+HW
+Haritha Tony
+  3:02 PM
+It's almost done
+
+
+HW
+hannajose2501
+  4:04 PM
+Ppt is on progress ,will update in slack soon
+
+
+csnobel2001
+  9:40 AM
+@ATHULKRISHNAN H
+ what's ur update on login interface?
+
+1 reply
+1 day agoView thread
+
+
+csnobel2001
+  9:40 AM
+Will it be good if we add voice typing to our chatbot?
+9:41
+What's ur suggestion
+
+
+HW
+Haritha Tony
+  9:42 AM
+Yeah, Voice typing is a good option
+9:43
+I think we should add a file attachments section so employees can upload their documents like sick leave, resumes etc
+
+
+HW
+hannajose2501
+  9:43 AM
+Voice typing will be a better idea
+
+
+csnobel2001
+  9:44 AM
+@Haritha Tony
+ that's a great addition
+
+
+HW
+hannajose2501
+  9:45 AM
+Team mates,can you share ur photographs and technical interests with me so that  I can add it to our ppt
+:+1:
+1
+
+
+
+csnobel2001
+  9:46 AM
+@Haritha Tony
+ can u code the attachment part?
+
+
+HW
+Haritha Tony
+  9:47 AM
+@csnobel2001
+ yes, I will.
+
+
+csnobel2001
+  9:47 AM
+Thanks 
+@Haritha Tony
+9:48
+@aaryavs2003
+ contact 
+@hannajose2501
+ for the ppt creation
+9:51
+All team members try your max not to use open ai api
+9:51
+Doing so would reduce the cost of our project
+9:52
+There are alternative models in the hugging face try accessing them
+
+
+HW
+Haritha Tony
+  9:52 AM
+Ok:+1:
+
+
+csnobel2001
+  9:53 AM
+If u have any doubts regarding choosing models ping me :wink:
+:+1:
+1
+
+9:57
+Technical intrests - Programming, Web development
+1000035969.jpg
+ 
+1000035969.jpg
+
+
+HW
+Haritha Tony
+  11:27 AM
+Technical Intrests - Programming, Web development. (edited) 
+1000184098.jpg
+ 
+1000184098.jpg
+
+
+AW
+aaryavs2003
+  11:46 AM
+IMG-20220105-WA0019 (1).jpg
+ 
+IMG-20220105-WA0019 (1).jpg
+11:51
+Technical intrests -Programming, Web development
+
+
+HW
+Haritha Tony
+  11:58 AM
+Resume scanning done :+1:
+:+1:
+1
+
+
+
+AW
+ATHULKRISHNAN H
+  12:53 PM
+Technical Interests - Web development,Programming,Generative AI
+IMG_9757
+ 
+IMG_9757
+
+
+HW
+hannajose2501
+  12:54 PM
+Thank you team
+:heart:
+1
+
+
+
+HW
+hannajose2501
+  1:23 PM
+Shall we focus on one industry to make it more specifc
+1:24
+Can you people suggest some?
+
+
+csnobel2001
+  1:24 PM
+Yes that would make it more accurate
+1:25
+I think we must concentrate on IT field
+:+1:
+2
+
+1:25
+As we are comfortable with it
+
+
+HW
+hannajose2501
+  2:15 PM
+Okay then let's prepare the problem statement that way
+
+
+HW
+hannajose2501
+  2:54 PM
+Team can u also share the project details that u have done
+
+
+HW
+Haritha Tony
+  3:53 PM
+1. Surgical Instrument Detection and Counting
+2. Pothole Detection and Alarming System (edited) 
+:+1:
+1
+
+
+
+csnobel2001
+  4:56 PM
+Pronunciation Mistake Detection
+  2. Personalised desktop assistant for Paralyzed
+:+1:
+1
+
+
+
+AW
+ATHULKRISHNAN H
+  6:44 PM
+Imagery-Storyteller : Creates captivating stories across various genres, showcasing the power of AI in storytelling. (edited) 
+:+1:
+1
+
+
+
+csnobel2001
+  8:21 PM
+@Raymond Kusch
+ Sir can you please help us with accessing OpenAI api
+8:22
+We have tried using other models, but we are not getting the expected result. (edited) 
+
+
+HC
+Raymond Kusch
+  4:08 AM
+Hello!
+4:09
+I apologize for the late response, I did not get notified that you pinged me.
+4:09
+How can I help with the OpenAI api?
+Are you looking for documentation, templates, examples?
+
+
+HC
+Raymond Kusch
+  4:33 AM
+# Update # 2:
+It has been brought to my attention that using OpenAI and Claude models may be a barrier due to costs. To relieve this burdon on all teams, I have created API keys that all teams can use for their development.
+OpenAI:
+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
+Claude:
+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
+*Note:* These keys will be deleted after the competition.
+
+
+csnobel2001
+  6:22 AM
+@Raymond Kusch
+ Thank you so much sir
+:handshake:
+1
+
+
+
+AW
+ATHULKRISHNAN H
+  1:02 PM
+Login interface done :+1:
+:+1:
+1
+
+
+
+HC
+Raymond Kusch
+  4:43 PM
+Unfortunately the original OpenAI Key was automatically revoked by OpenAI. They found that it was uploaded to GitHub and considered it leaked. Please see a new, working key below and remember to keep it in a safe place (do not push to Git).
+New OpenAI Key:
+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
