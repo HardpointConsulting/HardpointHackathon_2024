@@ -1,3 +1,11 @@
+# README
+
+## DocPotion, Author(s) Extraction, and Alternative Title Generation
+
+### Introduction
+This project focuses on automating the extraction of document titles and author information from scientific documents, alongside generating alternative titles based on document content. The process involves parsing text from scanned documents, extracting title and author details, analyzing document content, and generating alternative titles using natural language processing (NLP) techniques.
+
+
 !pip install pytesseract
 !sudo apt install tesseract-ocr
 !sudo apt-get install unrar
