@@ -1,6 +1,6 @@
 ---
 
-# WareCare (255): Warehouse Assistant Application
+# WARECARE(255): Warehouse Assistant Application
 
 ## Table of Contents
 1. [Introduction](#introduction)
