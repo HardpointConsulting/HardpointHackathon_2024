@@ -9,9 +9,10 @@
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Setup](#setup)
-4. [Dataset](#dataset)
-5. [Usage](#usage)
-6. [Technologies Used](#technologies-used)
+5. [Dataset](#dataset)
+6. [Usage](#usage)
+7. [UI/UX](#usage)
+8. [Technologies Used](#technologies-used)
 
 ---
 
@@ -52,8 +53,14 @@ This was done as we were not doing any training of the pre-trained model usinng 
 4. It wil summarise the document once we add the documents automatically
 5. The summarised document text will be displayed on the screen.
    
+## <span id="features">UI/UX</span>
 
-## <span id="technologies-used">Technologies Used</span>
+Therees a front end which was initially designed, but had to be dropped down, as we didn't have the coding skills required to connect it using the frameworks(flask/django).
+The UI/UX designed , if implemented becomes a very promising one.But due to knowledge/time constraints , we had to use the streamlit as our backup plan
+
+
+
+## <span id="Technologies-used">Technologies Used</span>
 
 The technologies used here are
 1. Python
