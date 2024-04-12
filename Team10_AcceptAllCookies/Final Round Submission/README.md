@@ -30,13 +30,13 @@ There's an flexibility which comes along with this
 And basically since we didnt use these models in projects , we were curious on how theese models worked.
 ## <span id="setup">Setup</span>
 Running through the setup we have to
-1. Make sure to have python installed
-2. Have a streamlit installed
-   2.1 Use pip install streamlit to install it
-3. Have Transformers installed
-   3.1 Use pip install transformers to install it
-4. Have Pytorch installed
-   4.1 Use pip install pytorch
+1. Make sure to have Python installed.
+2. Have Streamlit installed.
+   2.<sup>1</sup> Use `pip install streamlit` to install it.
+3. Have Transformers installed.
+   3.<sup>1</sup> Use `pip install transformers` to install it.
+4. Have PyTorch installed.
+   4.<sup>1</sup> Use `pip install torch` to install it.
 
 
 ## <span id="dataset">Dataset</span>
