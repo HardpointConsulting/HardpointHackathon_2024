@@ -37,7 +37,7 @@ In the "Apply for Job" section, new candidates submit their details and resume. 
 * FAISS
 
 # How to Run the Code
-Note : Use Python 3.10 for smooth running of the code.
+Note : The code was written using ```Python 3.10``` version.
 1. Clone the git repository using ```git clone git@github.com:HardpointConsulting/HardpointHackathon_2024.git```.
 2. Go to ```Team04_RedBulls/Final Round Submission```.
 3. Install necessary libraries by running ```pip install -r requirements.txt```.
