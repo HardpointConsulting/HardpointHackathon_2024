@@ -67,8 +67,7 @@ The UI/UX designed , if implemented becomes a very promising one.But due to know
 
 [Click here to view the Figma design](https://www.figma.com/file/Ri7WaYfC3V2CP2fvgtgAZ3/team-14?type=design&node-id=199-229&mode=design&t=LJRZHvKahQgsajia-0)
 
-Flochart of the working
-[Flowchart]([https://drive.google.com/file/d/1vHhlnJYs2uZ9qao8cUkKvaR_idv8Rl6c/view?usp=sharing](https://drive.google.com/file/d/1vHhlnJYs2uZ9qao8cUkKvaR_idv8Rl6c/view?usp=sharing))
+[Flowchart](https://drive.google.com/file/d/1vHhlnJYs2uZ9qao8cUkKvaR_idv8Rl6c/view)
 
 
 ## <span id="Technologies-used">Technologies Used</span>
