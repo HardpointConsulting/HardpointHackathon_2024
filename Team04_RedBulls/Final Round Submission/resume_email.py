@@ -1,16 +1,12 @@
-# call evaluate_resume(resume_path,mail)
-
-
 import re
 import PyPDF2
-
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 def reject_mail(mail):
-        password = "zkffesjsnywjlupp"  # Replace with your Gmail app password
-        me = "harithatony17@gmail.com"  # Replace with your email address
+        password = "<COMPANY_GMAIL_APP_PASSWORD>"  # Replace with your Gmail app password
+        me = "<COMPANY_EMAIL>"  # Replace with your email address
         email_body = f"""\
         <html>
         <body>
@@ -40,8 +36,8 @@ def reject_mail(mail):
             print(f'error in sending mail: {e}')
 
 def accept_mail(mail):
-        password = "zkffesjsnywjlupp"  # Replace with your Gmail app password
-        me = "harithatony17@gmail.com"  # Replace with your email address
+        password = "<COMPANY_GMAIL_APP_PASSWORD>"  # Replace with your Gmail app password
+        me = "<COMPANY_EMAIL>"  # Replace with your email address
         email_body = f"""\
         <html>
         <body>
@@ -113,8 +109,7 @@ def analyze_resume(resume_text):
 
     # Extract qualifications mentioned in the resume
     qualifications_mentioned = required_qualification_pattern.findall(resume_text.lower())
-    # print(qualifications_mentioned)
-    # print(skills_mentioned)
+        
     # Calculate score based on skills and qualifications
     score = 0
     for skill in required_skills:
@@ -152,9 +147,3 @@ def evaluate_resume(resume_path,mail):
     else:
         reject_mail(mail)
         print("Fail")
-
-# Example usage:
-# resume_path = "resume.pdf"
-# mail =  "csnobel2001@gmail.com"
-# evaluate_resume(resume_path,mail)
-# print("Result:", result)
