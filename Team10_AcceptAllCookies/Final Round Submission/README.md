@@ -22,7 +22,7 @@
 
 We , AcceptAllCookies made this Document Summzarization so as to tackle the time wastage one has to read the wntire documents and try to gather informations.
 This helps in saving time and resources and, we can use this time productively in our environment.
-We tried to impllement summarization in many fields  but due to the time constraint , we have only done it on Legal,Finance and Research.
+We tried to implement summarization in many fields  but due to the time constraint , we have only done it on Legal,Finance and Research.
 
 ## <span id="features">Features</span>
 
@@ -68,7 +68,7 @@ The UI/UX designed , if implemented becomes a very promising one.But due to know
 [Click here to view the Figma design](https://www.figma.com/file/Ri7WaYfC3V2CP2fvgtgAZ3/team-14?type=design&node-id=199-229&mode=design&t=LJRZHvKahQgsajia-0)
 
 Flochart of the working
-![Flowchart](https://drive.google.com/file/d/1vHhlnJYs2uZ9qao8cUkKvaR_idv8Rl6c/view?usp=sharing)
+[Flowchart](https://drive.google.com/file/d/1vHhlnJYs2uZ9qao8cUkKvaR_idv8Rl6c/view?usp=sharing)
 
 
 ## <span id="Technologies-used">Technologies Used</span>
