@@ -37,8 +37,8 @@ In the "Apply for Job" section, new candidates submit their details and resume. 
 * FAISS
 
 # How to Run the Code
-1. Clone the git repository.
-2. Go to ```Team04_RedBulls/Final Round Submission```
+1. Clone the git repository using ```git clone git@github.com:HardpointConsulting/HardpointHackathon_2024.git```.
+2. Go to ```Team04_RedBulls/Final Round Submission```.
 3. Install necessary libraries by running ```pip install -r requirements.txt```.
 4. Add pytesseract to your path in ```medical_email.py```.
 5. Add Email and Email APP Password in ```medical_email.py``` and ```resume_email.py```
