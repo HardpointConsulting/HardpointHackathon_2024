@@ -18,3 +18,7 @@ pip install textwrap3
 pip install openai
 pip install pinecone-client
 pip install sentence-transformers
+pip install regex
+pip install PyPDF2
+pip install PyMuPDF
+pip install fitz
