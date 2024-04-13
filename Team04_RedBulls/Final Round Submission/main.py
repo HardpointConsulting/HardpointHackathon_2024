@@ -26,7 +26,7 @@ def work(username):
     if 'requests' not in st.session_state:
         st.session_state['requests'] = []
 
-    llm = ChatOpenAI(model_name="gpt-3.5-turbo", openai_api_key="<OPENAI_API_KEY>")
+    llm = ChatOpenAI(model_name="gpt-3.5-turbo", openai_api_key="<OPENAI_API_KEY>") #enter your openai api key
 
     if 'buffer_memory' not in st.session_state:
                 st.session_state.buffer_memory=ConversationBufferWindowMemory(k=3,return_messages=True)
@@ -75,5 +75,3 @@ def work(username):
                 message(st.session_state['responses'][i],key=str(i))
                 if i < len(st.session_state['requests']):
                     message(st.session_state["requests"][i], is_user=True,key=str(i)+ '_user')
-
-            
