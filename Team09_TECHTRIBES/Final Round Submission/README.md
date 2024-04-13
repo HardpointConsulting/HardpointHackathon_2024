@@ -1,59 +1,42 @@
-# RockyBot: News Research Tool 📈
+# Research Your Equity..📄📄
 
-RockyBot is a Streamlit web application designed to help users conduct research on news articles. It utilizes natural language processing (NLP) techniques to extract relevant information and answer questions based on the processed data.
-
-## Features
-
-- Process multiple news article URLs simultaneously.
-- Extract key information and generate answers to user queries using the OpenAI API.
-- Display sources for the provided answers.
+## Introduction
+This Streamlit application enables users to input URLs of articles they wish to analyze and ask questions related to the content of those articles. It utilizes various natural language processing tools and models to process the data and provide answers to user questions.
 
 ## Setup
+Before running the application, make sure you have the necessary dependencies installed. You can install them using pip:
 
-1. Clone this repository to your local machine:
+bash
+pip install -r requirements.txt
 
-    ```bash
-    git clone https://github.com/your_username/rockybot.git
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd rockybot
-    ```
-
-3. Install the required dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. Create a `.env` file in the root directory of the project and add your OpenAI API key:
-
-    ```plaintext
-    OPENAI_API_KEY=your_openai_api_key_here
-    ```
-
-5. Run the Streamlit app:
-
-    ```bash
-    streamlit run main.py
-    ```
-
-6. Access the app in your web browser at the provided URL.
 
 ## Usage
+1. Run the application using the following command:
 
-1. In the sidebar, input up to three news article URLs.
-2. Click the "Process URLs" button to extract information from the provided articles.
-3. Once the processing is complete, input your question in the text box labeled "Question."
-4. Press Enter to submit your question and view the generated answer along with relevant sources.
+bash
+streamlit run your_file_name.py
+```
 
-## Technologies Used
+2. In the sidebar, enter the URLs of the articles you want to analyze. You can input multiple URLs.
+3. Click the "Process URLs" button to initiate the analysis.
+4. Once the data loading and processing are completed, you can input your question in the provided text box.
+5. After entering your question, the application will generate an answer based on the content of the articles.
 
-- Python
-- Streamlit
-- langchain (for NLP tasks)
-- OpenAI API
-- FAISS (Facebook AI Similarity Search)
+## Components
+### Libraries Used:
+- *os*: For interacting with the operating system.
+- *streamlit*: For building interactive web applications.
+- *pickle*: For serializing and deserializing Python objects.
+- *time*: For time-related functions.
+- *langchain*: A library for working with language models and natural language processing tasks.
+- *langchain_google_genai*: A module providing access to Google's Generative AI models.
+- *pandas*: For data manipulation and analysis.
+- *sentence_transformers*: For computing embeddings of text sentences.
 
+### Other Components:
+- *Google API Key*: Replace "AIzaSyCwnN-9SnCfkl-ncRJY1mreo9qG-U_L9XM" with your own Google API key.
+- *Model*: Uses the gemini-1.0-pro model from Google's Generative AI for generating responses.
+- *Data Loading*: Articles' text is loaded from the provided URLs.
+- *Text Splitting*: Splits the text into smaller chunks for processing.
+- *Embedding Vector Building*: Constructs embedding vectors for the text chunks using Hugging Face's embeddings and FAISS for indexing.
+- *Question Answering*: After processing, users can input questions, and the application provides answers based on the analyzed content.
