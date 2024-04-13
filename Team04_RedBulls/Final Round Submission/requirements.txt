@@ -15,3 +15,6 @@ pip install email
 pip install secure-smtplib
 pip install langchain-text-splitters
 pip install textwrap3
+pip install openai
+pip install pinecone-client
+pip install sentence-transformers
