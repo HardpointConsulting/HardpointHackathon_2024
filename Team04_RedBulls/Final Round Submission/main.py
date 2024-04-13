@@ -10,17 +10,13 @@ from langchain.prompts import (
 import streamlit as st
 from streamlit_chat import message
 from utils import *
-from medical_email import analyze_medical_record
 from excel_email import find_mail
 
 
+def work(username):
 
-
-def work():
-
-    # st.subheader("Chatbot with Langchain, ChatGPT, Pinecone, and Streamlit")
     st.title("HR Assistant")
-    name = st.chat_input("Your name?")
+    name = username
     st.subheader(f"Welcome👋")
     
 
@@ -30,7 +26,7 @@ def work():
     if 'requests' not in st.session_state:
         st.session_state['requests'] = []
 
-    llm = ChatOpenAI(model_name="gpt-3.5-turbo", openai_api_key="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")
+    llm = ChatOpenAI(model_name="gpt-3.5-turbo", openai_api_key="<OPENAI_API_KEY>")
 
     if 'buffer_memory' not in st.session_state:
                 st.session_state.buffer_memory=ConversationBufferWindowMemory(k=3,return_messages=True)
@@ -60,20 +56,14 @@ def work():
         if query:
             with st.spinner("typing..."):
                 conversation_string = get_conversation_string()
+                #for applying leave
                 if "apply for leave" in query:
                     from med_doc import analysis
                     email = find_mail(name)
                     analysis(email)
                     response = "Check your email for confirmation mail..."
                     st.session_state.responses.append(response) 
-        
-                    
-                # st.code(conversation_string)
-                # refined_query = query_refiner(conversation_string, query)
-                # st.subheader("Refined Query:")
-                # st.write(refined_query)
-                # context = find_match(conversation_string)
-                # print(context)  
+
                 else:
                     response = conversation.predict(input=f"Context:\n {conversation_string} \n\n Query:\n{query}")
                     st.session_state.requests.append(query)
