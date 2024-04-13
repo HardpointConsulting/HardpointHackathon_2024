@@ -65,6 +65,8 @@ The UI/UX designed , if implemented becomes a very promising one.But due to know
 
 [This is the screen recording demo of the UI/UX design](https://vimeo.com/932845614?share=copy)
 
+[Click here to view the Figma design](https://www.figma.com/file/Ri7WaYfC3V2CP2fvgtgAZ3/team-14?type=design&node-id=199-229&mode=design&t=LJRZHvKahQgsajia-0)
+
 
 ## <span id="Technologies-used">Technologies Used</span>
 
@@ -72,7 +74,7 @@ The technologies used here are
 1. Python
 2. Streamlit
 3. Pretrained Models from HuggingFace
-
+4. Pytorh
 ## <span id="Team-Members">Team-Members</span>
 1. Fatimahziya AT (Team Lead)
 2. Aswin MM (Documentation)
