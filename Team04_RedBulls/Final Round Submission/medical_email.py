@@ -1,8 +1,6 @@
-#call analyze_medical_record(image_path, emailid)
 import os
 import re
 import textwrap
-from datetime import datetime
 
 import pytesseract as pyt
 from PIL import Image
@@ -20,8 +18,8 @@ def email(data):
     from email.mime.text import MIMEText
 
     def accept_mail(data):
-        password = "zkffesjsnywjlupp"  # Replace with your Gmail app password
-        me = "harithatony17@gmail.com"  # Replace with your email address
+        password = "COMPANY_GMAIL_APP_PASSWORD"  # Replace with your Gmail app password
+        me = "<COMPANY_EMAIL>"  # Replace with your email address
         email_body = f"""\
         <html>
         <body>
@@ -55,8 +53,8 @@ def email(data):
 
     def deny_mail(data, missing):
         query = ["employee name", "doctor name", "disease name", "date of issue", "days of leave", "recipient email"]
-        password = "zkffesjsnywjlupp"  # Replace with your Gmail app password
-        me = "harithatony17@gmail.com"  # Replace with your email address
+        password = "COMPANY_GMAIL_APP_PASSWORD"  # Replace with your Gmail app password
+        me = "COMPANY_EMAIL"  # Replace with your email address
         email_body = f"""\
         <html>
         <body>
@@ -109,7 +107,7 @@ def analyze_medical_record(image_path, emailid):
     def perform_ocr(image_path):
         try:
             img = Image.open(image_path)
-            pyt.pytesseract.tesseract_cmd = r"C:/Program Files/Tesseract-OCR/tesseract.exe"
+            pyt.pytesseract.tesseract_cmd = r"PYTESSERACT_FILE"  #given your pytesseract folder path
             text = pyt.image_to_string(img)
             return text
         except FileNotFoundError:
@@ -137,7 +135,7 @@ def analyze_medical_record(image_path, emailid):
         return result
     
     # Set Hugging Face Hub API token
-    os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+    os.environ["HUGGINGFACEHUB_API_TOKEN"] = "HUGGING_FACE_API_KEY"   #enter your huggingface api key
 
     # OCR and process the image
     create_file(image_path)
@@ -155,7 +153,7 @@ def analyze_medical_record(image_path, emailid):
     db = FAISS.from_documents(docs, embeddings)
 
     # Q-A
-    llm = ChatOpenAI(model_name="gpt-3.5-turbo", openai_api_key="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")
+    llm = ChatOpenAI(model_name="gpt-3.5-turbo", openai_api_key="OPENAI_API_KEY")    #provide your openai api key
     chain = load_qa_chain(llm, chain_type="stuff")
 
 
@@ -178,10 +176,4 @@ def analyze_medical_record(image_path, emailid):
     results.append(emailid)
     email(results)
     return results
-
-# example
-# image_path = 'medical1.jpg'
-# emailid = "csnobel2001@gmail.com"
-# extracted_info = analyze_medical_record(image_path,emailid)
-# print(extracted_info) 
 
