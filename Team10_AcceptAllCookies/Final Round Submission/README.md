@@ -13,7 +13,8 @@
 6. [Usage](#usage)
 7. [UI/UX](#usage)
 8. [Technologies Used](#technologies-used)
-9. [Team-Members](#Team-Members)
+9. [Screen Recording](#Screen-Recording)
+10. [Team Members](#Team-Members)
 
 ---
 
@@ -75,6 +76,11 @@ The technologies used here are
 2. Streamlit
 3. Pretrained Models from HuggingFace
 4. Pytorh
+
+
+## <span id="Screen-Recording">Screen Recording</span>
+[Click here to watch the screen recording of the project](https://drive.google.com/file/d/1x6Vhd33IKsg5sr2Zgi6EgrFHctod8pCY/view?usp=sharing)
+
 ## <span id="Team-Members">Team-Members</span>
 1. Fatimahziya AT (Team Lead)
 2. Aswin MM (Documentation)
