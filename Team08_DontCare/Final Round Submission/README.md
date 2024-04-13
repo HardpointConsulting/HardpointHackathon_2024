@@ -100,7 +100,7 @@ WareCare (255) offers a user-friendly solution for warehouse personnel to intera
 
 ## 8. Project Demo on Loom<a name="demo"></a>
 WARECARE(255) Voice Assistant Demo Video by Don't Care
-https://www.loom.com/share/bea0157f01684e9dbe6428708c103da5?sid=0f765f52-43fc-48b0-96b4-24da81704e47
+[Link]: https://www.loom.com/share/bea0157f01684e9dbe6428708c103da5?sid=0f765f52-43fc-48b0-96b4-24da81704e47
 
 [Visit our website][website]
 
