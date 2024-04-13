@@ -10,19 +10,22 @@ def app():
 
     name = st.text_input("Full Name:")
     mob = st.text_input("Contact No.:")
-    email = st.text_input("Email:")
+    email_id = st.text_input("Email:")
     
     # analysis(email)
+    st.write("Upload your Resume as PDF :")
+    if st.button("Upload Resume"):
+        analysis(email_id)
     if st.button("Submit"):
     # Create a DataFrame from the collected data
         data = {
             "Name": [name],
             "Contact": [mob],
-            "Email ID": [email]
+            "Email ID": [email_id]
         }
         df = pd.DataFrame(data)
     
     # Export DataFrame to Excel
         file_path = "user_data.xlsx"
         df.to_excel(file_path, index=False)
-        st.success(f"Details Entered Successfully ✔")
+        st.success(f"Application submitted successfully ✔ \n Note : Please check your email for futher proceedings...")
