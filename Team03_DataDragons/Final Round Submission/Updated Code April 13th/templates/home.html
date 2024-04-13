@@ -1,0 +1,123 @@
+{% extends 'index.html' %}
+
+
+{% block content %}
+
+    <div>
+        <form class="home py-3" id="form" method="POST" enctype="multipart/form-data">
+            <div class="answer px-3">
+                <p class="heading m-0 text-lg-center">DragonSense AI</p>
+                <p class="tagline m-0 text-lg-center">Sense Your Database...</p>
+                <p id="answer" class="mt-3"></p>
+            </div>
+            <div id="audio-box">
+
+            </div>
+            <div class="input-box">
+                <button id="voice">Record</button>
+                <input type="text" name="message" placeholder="Enter your query.." id="text"/>
+                <button id="submit">send</button>
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript">
+        let isRecoding = false
+        let recorder = ''
+        let blob = null
+        $(document).ready(()=>{
+            $("#submit").click((ev)=>{
+                ev.preventDefault();
+                // alert("hihi")
+                var text = $("#text").val()
+                let audio = null
+                try{
+                    audio = document.querySelector("audio")
+                }catch{
+                    audio = null
+                }
+                $("#text").val("")
+                if(text != ""){
+                    var existingContent = $("#answer").html();
+                    var newContent = existingContent  + "<p class='question mb-3'><span class='user mr-2'>User: </span>"+ text + "</p>"; // Concatenate
+                    console.log(existingContent, newContent)
+                    $("#answer").html(newContent);
+                }else{
+                }
+                var formData = new FormData()
+                formData.append('audio', blob)
+                formData.append('message', text)
+                console.log(formData)
+                var req = $.ajax({
+                    type: 'POST',
+                    url: '/',
+                    data: formData,
+                    processData: false,
+                    contentType: false
+                })
+                req.done((data)=>{
+                    // $("#answer").text(data.result)
+                    if(data.query){
+                        var existingContent = $("#answer").html(); // Get existing content
+                        var newContent = existingContent + "<p class='question mb-3 '><span class='user mr-2'>User:</span>"+ data.query + "</p>"+"<p class='question  mb-5'><span class='ai mr-2'>DragonSense: </span>"+data.result+"</p>"; // Concatenate
+                        console.log(newContent)
+                        $("#answer").html(newContent);
+                    }else{
+                        var existingContent = $("#answer").html(); // Get existing content
+                        var newContent = existingContent + "<p class='question mb-5'><span class='ai mr-2'>DragonSense:</span>"+data.result+"</p>"; // Concatenate
+                        console.log(newContent)
+                        $("#answer").html(newContent);
+                    }
+                    
+                })
+
+            })
+            $("#voice").click((e)=>{
+                isRecoding = !isRecoding
+                e.preventDefault()
+                console.log('voice', isRecoding)
+                if(isRecoding){
+                    document.getElementById('voice').innerHTML = "Stop!!"
+                    startRecording()
+                }else{
+                    document.getElementById('voice').innerHTML = "Record"
+                    stopRecording()
+                }
+            })
+            function startRecording() {
+                navigator.mediaDevices.getUserMedia({ audio: true })
+                .then(stream => {
+                    recorder = new MediaRecorder(stream);
+                    var items = [];
+
+                    recorder.ondataavailable = (e) => {
+                        items.push(e.data);
+                        if (recorder.state == "inactive") {
+                            blob = new Blob(items, { type: 'audio/webm' });
+                            var audio = document.getElementById("audio-box");
+                            audio.innerHTML = '';
+
+                            var mainAudio = document.createElement('audio');
+                            mainAudio.setAttribute('controls', 'controls');
+
+                            var source = document.createElement('source');
+                            source.src = URL.createObjectURL(blob);
+                            source.type = 'audio/webm';
+
+                            mainAudio.appendChild(source);
+                            audio.appendChild(mainAudio);
+                        }
+                    };
+
+                    recorder.start(100);
+                })
+                .catch(error => {
+                    console.error("Error accessing microphone: ", error);
+                });
+            }
+        })
+        function stopRecording() {
+            recorder.stop();
+        }
+    </script>
+
+{% endblock %}
