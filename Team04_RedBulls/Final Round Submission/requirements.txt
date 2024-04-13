@@ -1,0 +1,16 @@
+pip install pandas
+pip install streamlit
+pip install sqlite
+pip install streamlit-option-menu
+pip install langchain
+pip install tk
+pip install pillow
+pip install functools
+pip install faiss-cpu
+pip install TextLoader
+pip install transformers
+pip install transformer-embeddings
+pip install pytesseract
+pip install email
+pip install secure-smtplib
+pip install langchain-text-splitters
