@@ -52,3 +52,22 @@ Note : The code was written using ```Python 3.10``` version.
 * Enhance its capabilities by integrating voice search functionality, enabling users to access HR services and information through spoken commands and queries.
 * Training new Employees.
 * Including on boarding of new employees.
+
+# Demo
+### Login Interface for Employee
+![Employee login interface](https://github.com/HardpointConsulting/HardpointHackathon_2024/assets/97967333/0410e84c-c996-4814-b7b1-47f4a9e4f716)
+
+### Chatbot Interface
+![Chatbot Interface](https://github.com/HardpointConsulting/HardpointHackathon_2024/assets/97967333/332dbf6a-8ad2-4ee4-97aa-e2068376ca13)
+
+### Job Application Interface
+![Apply for Job](https://github.com/HardpointConsulting/HardpointHackathon_2024/assets/97967333/9851f77e-c1b9-49aa-90f1-278ad3dc87fe)
+
+### Response Email Examples for both Leave application & Job Application
+
+![image](https://github.com/HardpointConsulting/HardpointHackathon_2024/assets/97967333/8274be33-e130-4950-a51e-1086405dcdf4)
+
+
+![image](https://github.com/HardpointConsulting/HardpointHackathon_2024/assets/97967333/23fcc6f3-de0b-4635-895f-d115c930739e)
+
+
