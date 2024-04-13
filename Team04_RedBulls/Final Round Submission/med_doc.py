@@ -1,5 +1,3 @@
-#call analysis(email)
-
 from medical_email import analyze_medical_record
 import tkinter as tk
 from tkinter import filedialog
@@ -24,6 +22,3 @@ def analysis(emailid):
 
     # Run the main event loop
     window.mainloop()
-# example
-# email = "csnobel2001@gmail.com"
-# analysis(email)
