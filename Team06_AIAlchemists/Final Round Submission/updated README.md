@@ -229,7 +229,3 @@ Your application should now be running on [http://localhost:3000](http://localho
 - **SwotAnalysis.js:** A React component for inputting and displaying the SWOT analysis. It renders a container with text areas for each SWOT category and a section for general inferences.
 - **SwotAnalysis.css:** Provides the styling for the SWOT analysis component, including the layout for the SWOT categories and the general inference section, ensuring a cohesive and attractive design.
 
-## Contributing
-
-If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. We welcome any suggestions, bug fixes, or feature enhancements.
-
