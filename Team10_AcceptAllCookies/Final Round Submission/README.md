@@ -63,6 +63,9 @@ The UI/UX designed , if implemented becomes a very promising one.But due to know
 
 [Click here to view the Figma prototype](https://www.figma.com/proto/Ri7WaYfC3V2CP2fvgtgAZ3/team-14?page-id=0%3A1&type=design&node-id=202-1545&viewport=-26%2C980%2C0.31&t=SApTnsVenbevqAI9-1&scaling=scale-down-width)
 
+[This is the screen recording demo of the UI/UX design](https://vimeo.com/932845614?share=copy)
+
+
 ## <span id="Technologies-used">Technologies Used</span>
 
 The technologies used here are
@@ -79,6 +82,3 @@ The technologies used here are
 
 
 
-[
-[https://vimeo.com/932845614?share=copy
-](https://vimeo.com/934315022/9256e952c4?share=copy)](https://vimeo.com/934315022/9256e952c4?share=copy)
