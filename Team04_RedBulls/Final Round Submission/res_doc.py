@@ -1,4 +1,3 @@
-#call analysis(email)
 from excel_email import find_mail
 from resume_email import evaluate_resume
 import tkinter as tk
@@ -26,7 +25,3 @@ def analysis(emailid):
 
     # Run the main event loop
     window.mainloop()
-# example
-username = "Mark Delos Santos"
-email = find_mail(username)
-analysis(email)
