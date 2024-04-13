@@ -17,7 +17,7 @@ def work(username):
 
     st.title("HR Assistant")
     name = username
-    st.subheader(f"Welcome👋")
+    st.subheader(f"Welcome {username} 👋")
     
 
     if 'responses' not in st.session_state:
