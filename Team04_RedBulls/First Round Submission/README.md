@@ -15,7 +15,7 @@ Develop a project leveraging Python libraries like Pytesseract for optical chara
 * openpyxl
 
 # How to Run the Code
-
+Note : The code was written using ```Python 3.10``` version.
 1. Clone the git repository using ```git clone git@github.com:HardpointConsulting/HardpointHackathon_2024.git```.
 2. Go to ```Team04_RedBulls/First Round Submission```.
 3. Install necessary libraries by running ```pip install -r requirements.txt```.
