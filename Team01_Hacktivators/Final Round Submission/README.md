@@ -1,22 +1,36 @@
-Automated Customer Interaction and Ordering system
+# Automated Customer Interaction system using comments and dms on Instagram
+
 Our automated customer interaction system aids online brands in seamlessly engaging with customers. Although we have not yet completed the automatic ordering system due to time constraints, this feature remains a potential addition in the future.
 
 
-Key Features:
+## **Key Features:**
 
-Automated Responses: Our system enables online brands to automatically respond to user comments on Instagram, ensuring a contextual understanding of each interaction.
+- Automated Responses: Our system enables online brands to automatically respond to user comments on Instagram, ensuring a contextual understanding of each interaction.
 
-Direct Message Handling: The system also manages direct messages (DMs) from customers on Instagram, providing relevant responses.
+- Direct Message Handling: The system also manages direct messages (DMs) from customers on Instagram, providing relevant responses.
 
-The bot's adaptability allows for customization based on the individual brand's characteristics, leading to more precise and effective outcomes.
+- The bot's adaptability allows for customization based on the individual brand's characteristics, leading to more precise and effective outcomes.
 
 
-USAGE:
-install necessary packages- 
-pip install transformers instagrapi
+**NOTE**: The updated codes are in updated code folder. The codes in the current folder works fine but not much accurate. The codes in the updated codes folder has more rate of accuracy.
 
-Comment Replier Bot
-run the code: python commentbot.py (After that enter your username, password and link of the post)
 
-Direct Messager Bot
-run the code: python dmbot.py (After that enter your username, password)
+## USAGE (for the code in the current folder):
+- install necessary packages- 
+  - pip install transformers instagrapi
+
+- Comment Replier Bot
+  - run the code: python commentbot.py (After that enter your username, password and link of the post)
+
+- Direct Messager Bot
+  - run the code: python dmbot.py (After that enter your username, password)
+
+## USAGE (for the codes in the updated code folder):
+- install necessary packages- 
+  - pip install transformers instagrapi
+
+- Comment Replier Bot
+  - run the code: python commentbot1.py (After that enter your username, password and link of the post)
+
+- Direct Messager Bot
+  - run the code: python dmbot1.py (After that enter your username, password)
