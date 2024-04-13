@@ -14,3 +14,4 @@ pip install pytesseract
 pip install email
 pip install secure-smtplib
 pip install langchain-text-splitters
+pip install textwrap3
