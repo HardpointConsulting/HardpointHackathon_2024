@@ -13,7 +13,7 @@ import streamlit as st
 from streamlit_chat import message
 from utils import *
 from main import work
-global username
+
 
 # Function to create a database connection
 def create_connection():
@@ -46,14 +46,13 @@ def login_page(conn):
     if st.button("Login"):
         if check_credentials(conn, username, password):
             st.experimental_set_query_params(logged_in=True)
-            work()
+            work(username)
         else:
             st.error("Invalid Username or Password")
         
 
 # Main function for home page
 
-# Main function
 def main():
     # Create database connection
     conn = create_connection()
@@ -63,7 +62,7 @@ def main():
     add_default_user(conn)
     # Check if logged in based on query parameters
     if st.experimental_get_query_params().get("logged_in"):
-        work()
+        work(st.experimental_get_query_params().get("username"))
     else:
         login_page(conn)  # Pass the connection to the login page function
 
