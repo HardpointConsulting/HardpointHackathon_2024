@@ -1,6 +1,3 @@
-
-#call find_mail(name)
-
 import pandas as pd
 
 def find_mail(name):
@@ -16,7 +13,3 @@ def find_mail(name):
     for n, email in zip(employee_names, employee_emails):
         if n == name:
             return email
-
-# Example usage:
-# email = find_mail("Mark Delos Santos")
-# print("Email for Mark Delos Santos:", email)
