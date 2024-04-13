@@ -19,7 +19,7 @@ from collections import Counter
 
 from datetime import datetime
 import os
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'API-key'
 from langchain.chat_models import ChatOpenAI
 
 from langchain.prompts import PromptTemplate
