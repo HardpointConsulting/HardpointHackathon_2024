@@ -16,7 +16,7 @@ conn = mysql.connector.connect(
     database=os.getenv("DATABASE"),
     port=os.getenv("PORT")
 )
-
+chain = get_few_shot_db_chain()
 # Set your Azure subscription key and region as environment variables
 
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
@@ -79,7 +79,6 @@ def handle_database_query(text, on):
         st.write("Fetching Details from the database....")
         text_to_speech("Please wait.....")
         text_to_speech("Fetching Details from the database....")
-        chain = get_few_shot_db_chain()
         response = chain.invoke({"question": text})
         cursor = conn.cursor()
         try:
