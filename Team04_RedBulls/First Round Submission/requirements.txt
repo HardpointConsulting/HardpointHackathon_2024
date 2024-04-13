@@ -1,0 +1,5 @@
+pytesseract==0.3.8
+opencv-python==4.5.3.56
+transformers==4.15.0
+pillow==9.0.1
+openpyxl==3.0.9
