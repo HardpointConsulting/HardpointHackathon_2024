@@ -1,0 +1,6 @@
+employee_id,password,username,position,departement,rank,hire date,regularization date,vacationleave,sick leave,salary,employment status,supervisor,email
+1005674,,Joseph Pena,Accounts Recievable Supervisor,Finance Department,Supervisor,2/16/2013,7/16/2013,30,15,20000,Permanent,Richard Santos,jose@gmail.com
+1005675,admin123,admin,HR Assistant,HR Department,Rank and File,01/01/2023,02/06/2020,20,2,15000,Probation,Jinky Francisco,csnobel2001@gmail.com
+1005676,,Alexander Verdad,Account Recievable Assistant,Finance Department,Rank and File,01/11/2017,01/05/2018,45,8,15000,Permanent,Joseph Santos,csnobel2024@gmail.com
+1005677,,nobel,Recruitment Supervisor,HR Department,Supervisor,10/15/2021,4/15/2022,16,4,30000,Permanent,,harithatony17@gmail.com
+1005678,,Richard Santos,Accounts Recievable Head,Finance Department,Manager,3/16/2016,9/16/2016,50,11,30000,Permanent,,hannajose2501@gmail.com
