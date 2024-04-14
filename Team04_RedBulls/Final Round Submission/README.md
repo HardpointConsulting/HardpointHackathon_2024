@@ -14,37 +14,47 @@ The HR bot streamlines employee inquiries and automates routine HR tasks, enhanc
    
 The HR bot operates in two main sections: "Apply for Job" and "Employee."
 
-Within the "Employee" section, users can log in to pose queries. These are addressed using pre-trained knowledge sourced from the company's terms and policies, which are stored as vectors on Pinecone servers. FAISS matches similar queries, and ChatOpenAI reconstructs matched queries. Employees can also request leave by uploading a medical certificate. The certificate's text is extracted using pytesseract, and essential details such as the patient's name, illness, and leave duration are verified to determine whether to approve or reject the request. A return email confirms the decision.
+Within the "Employee" section, users can log in to pose queries. These are addressed using pre-trained knowledge sourced from the company's terms and policies, which are stored as vectors on Chroma. FAISS matches similar queries, and ChatOpenAI reconstructs matched queries. Employees can also request leave by uploading a medical certificate. The certificate's text is extracted using pytesseract, and essential details such as the patient's name, illness, and leave duration are verified to determine whether to approve or reject the request. A return email confirms the decision.
 
 ![IMG_20240413_162527](https://github.com/HardpointConsulting/HardpointHackathon_2024/assets/97967333/0f298291-45ee-4a6e-b52e-6adfeec2d6bf)
 
-In the "Apply for Job" section, new candidates submit their details and resume. The system analyzes this information and sends either an acceptance or rejection email. Additionally, the entered details are stored for future reference.
+In the "Apply for Job" section, new candidates submit their details and resume. The system analyzes this information through an ATS like system and sends either an acceptance or rejection email. Additionally, the entered details are stored for future reference.
 
    
-
 # Tools Used
 * Langchain
-* tkinter
 * PIL
 * PyPDF2
 * Pytesseract
 * smtplib
 * Streamlit
-* Pinecone
+* Chroma
 * Openai
 * Pandas
-* Sqlite3
 * FAISS
+
 
 # How to Run the Code
 Note : The code was written using ```Python 3.10``` version.
-1. Clone the git repository using ```git clone git@github.com:HardpointConsulting/HardpointHackathon_2024.git```.
-2. Go to ```Team04_RedBulls/Final Round Submission```.
-3. Install necessary libraries by running ```pip install -r requirements.txt```.
+1. Clone the git repository using
+```javascript
+git clone git@github.com:HardpointConsulting/HardpointHackathon_2024.git
+```
+2. Go to directory
+```javascript
+cd Team04_RedBulls/Final Round Submission/UPDATED CODE 14-04-24
+```
+3. Install necessary libraries by running
+```javascript
+pip install -r requirements.txt
+```
 4. Add pytesseract to your path in ```medical_email.py```.
-5. Add Email and Email APP Password in ```medical_email.py``` and ```resume_email.py```
-6. Insert the neccessary ```API_KEY``` for Pinecone,HuggingFace and OpenAI.
-7. Run home.py using ```streamlit run home.py```
+5. Add ```Email``` and ```Email APP Password``` in ```medical_email.py``` and ```resume_email.py```
+6. Insert the neccessary ```API_KEY``` in ```.env``` file for HuggingFace and OpenAI.
+7. Run home.py using
+```javascript
+streamlit run home.py
+```
 8. The default ```username``` and ```password``` are "admin" and "admin123".
 
 # Future Scope
@@ -55,19 +65,26 @@ Note : The code was written using ```Python 3.10``` version.
 
 # Demo
 ### Login Interface for Employee
-![Employee login interface](https://github.com/HardpointConsulting/HardpointHackathon_2024/assets/97967333/0410e84c-c996-4814-b7b1-47f4a9e4f716)
+<img width="960" alt="login" src="https://github.com/HardpointConsulting/HardpointHackathon_2024/assets/97967333/e9fa8c62-9621-40bf-9628-56adf3980123">
+
 
 ### Chatbot Interface
-![Chatbot Interface](https://github.com/HardpointConsulting/HardpointHackathon_2024/assets/97967333/332dbf6a-8ad2-4ee4-97aa-e2068376ca13)
+<img width="960" alt="salary query" src="https://github.com/HardpointConsulting/HardpointHackathon_2024/assets/97967333/5a80e8bc-9c6a-4e6f-abaf-35bfdefbe3bd">
+
+<img width="960" alt="leave" src="https://github.com/HardpointConsulting/HardpointHackathon_2024/assets/97967333/c77dda2c-de60-4224-ab77-43ef0bac292c">
+
+
 
 ### Job Application Interface
-![Apply for Job](https://github.com/HardpointConsulting/HardpointHackathon_2024/assets/97967333/9851f77e-c1b9-49aa-90f1-278ad3dc87fe)
+<img width="960" alt="candidate" src="https://github.com/HardpointConsulting/HardpointHackathon_2024/assets/97967333/0d0b4b0d-999a-428d-82db-17b1f4f43048">
+
 
 ### Response Email Examples for both Leave application & Job Application
 
-![image](https://github.com/HardpointConsulting/HardpointHackathon_2024/assets/97967333/8274be33-e130-4950-a51e-1086405dcdf4)
+![image](https://github.com/HardpointConsulting/HardpointHackathon_2024/assets/97967333/48cde803-9990-4928-bb18-326513227064)
 
 
-![image](https://github.com/HardpointConsulting/HardpointHackathon_2024/assets/97967333/23fcc6f3-de0b-4635-895f-d115c930739e)
+![image](https://github.com/HardpointConsulting/HardpointHackathon_2024/assets/97967333/9f591ae1-d400-4bce-8e62-5b7da25c7879)
+
 
 
